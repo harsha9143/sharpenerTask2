@@ -23,3 +23,11 @@ fruits[2].style.backgroundColor = "yellow";
 for (let i = 0; i < fruits.length; i++) {
   fruits[i].style.fontWeight = "bold";
 }
+
+const fruitsList = document.getElementsByTagName("li");
+
+fruitsList[4].style.color = "blue";
+
+for (let i = 0; i < fruitsList.length; i++) {
+  fruitsList[i].style.fontStyle = "italic";
+}
